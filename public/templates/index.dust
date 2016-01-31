@@ -1,0 +1,9 @@
+{>"layouts/master" /}
+
+{<body}
+    Hi Guys, This is my family !
+
+    {#display}
+    	<p>Name : {name} , Profession {profession} {~n}
+    {/display}
+{/body}

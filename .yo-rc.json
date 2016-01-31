@@ -1,0 +1,13 @@
+{
+  "generator-kraken": {
+    "taskModule": "grunt",
+    "description": "This is a sample application where kraken which is an express app, talks to mongoDB",
+    "author": "Sandeep L Hegde",
+    "templateModule": "makara",
+    "i18n": "i18n",
+    "componentPackager": "bower",
+    "cssModule": "less",
+    "jsModule": "requirejs",
+    "useJson": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "krakenmongodb",
+  "version": "0.1.0",
+  "description": "This is a sample application where kraken which is an express app, talks to mongoDB",
+  "author": "Sandeep L Hegde",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test",
+    "build": "grunt build",
+    "all": "npm run build && npm run test"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "construx": "^1.0.0",
+    "construx-copier": "^1.0.0",
+    "construx-dustjs": "^1.1.0",
+    "construx-less": "^1.0.0",
+    "dust-makara-helpers": "^4.1.2",
+    "express": "^4.12.2",
+    "kraken-js": "^1.0.3",
+    "makara": "^2.0.3",
+    "mongodb": "^2.1.4"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.0",
+    "supertest": "^0.9.0"
+  }
+}
